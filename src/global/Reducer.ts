@@ -1,10 +1,11 @@
 import { configureStore } from "@reduxjs/toolkit";
 import { PhotoReducer } from "./PhotoSlice";
+import { FavReducer } from "./FavSlice";
 
 export const Reducer = configureStore({
     reducer: {
         photos: PhotoReducer,
-        favorites: () => "Favorite Photos!"
+        favorites: FavReducer
     },
 });
 

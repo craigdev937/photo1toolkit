@@ -1,5 +1,5 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
-const api_key = process.env.APP_KEY;
+const api_key = process.env.API_KEY;
 const URL = "https://api.unsplash.com/search/photos?client_id";
 
 export const getPhotos = 
