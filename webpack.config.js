@@ -1,4 +1,5 @@
 const path = require("path");
+const Dotenv = require("dotenv-webpack");
 module.exports = {
     entry: path.resolve(__dirname, "src/index.tsx"),
     output: {
@@ -32,7 +33,8 @@ module.exports = {
                 type: "asset/resource"
             }
         ]
-    }
+    },
+    plugins: [new Dotenv()]
 };
 
 

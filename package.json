@@ -19,8 +19,11 @@
   },
   "homepage": "https://github.com/craigdev937/photo1toolkit#readme",
   "dependencies": {
+    "@reduxjs/toolkit": "^1.9.3",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.8.2"
   },
   "devDependencies": {
     "@types/node": "^18.14.2",
@@ -38,5 +41,3 @@
     "webpack-dev-server": "^4.11.1"
   }
 }
-
-
